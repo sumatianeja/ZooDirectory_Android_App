@@ -11,23 +11,23 @@ The app has 3 activities:
 
 1. Animal listing activity
  Zoo has 8 animals. Each row in this list have:
-⋅⋅*  a thumbnail picture of the animal
-⋅⋅*  the name of the animal
+    ⋅⋅*  a thumbnail picture of the animal
+    ⋅⋅*  the name of the animal
 
 This is implemented as a ListView. When any part of a row is clicked, it launches the details activity for the corresponding animal (described next).
 
-2.  Animal detail activity
+2. Animal detail activity
 The animal detail activity shows details on the animal chosen in the list. The activity shows:
-⋅⋅*  The name of the animal
-⋅⋅*  A large image of the animal
-⋅⋅*  A short description of the animal
+    ⋅⋅* The name of the animal
+    ⋅⋅* A large image of the animal
+    ⋅⋅* A short description of the animal
 
 The same detail activity is being reused for each animal.
 
-3.  Zoo information activity
+3. Zoo information activity
 The zoo information activity has:
-⋅⋅*  The name of the Zoo
-⋅⋅*  A phone number represented as Button --> When clicked, the phone number of the zoo (888-8888) is dialed.
+    ⋅⋅* The name of the Zoo
+    ⋅⋅* A phone number represented as Button --> When clicked, the phone number of the zoo (888-8888) is dialed.
 
 
 This activity is triggered by one of the menu items (see the "Menu Items" section below).
