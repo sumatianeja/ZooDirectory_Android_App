@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sumati.zoodirectory.AnimalListing">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        yourApp:showAsAction="always" />
+
+    <!-- Information -->
+    <item android:id="@+id/action_info"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Uninstall -->
+    <item android:id="@+id/action_uninstall"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/uninstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</menu>

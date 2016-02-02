@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:layout_gravity="center|center_horizontal"
+        android:id="@+id/animalImage"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/label_text"
+    android:text="hello_world"
+    android:paddingBottom="5dp"
+    android:layout_gravity="center|center_horizontal"
+    android:textStyle="bold"
+    android:textColor="#ff00ff"
+    android:background="#00ff00"
+    android:textIsSelectable="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center|center_horizontal"
+        android:textColor="@color/color_darkgray"
+        android:textSize="15sp"
+        android:maxLines = "7"
+        android:scrollbars = "vertical"
+        android:text="Animal Name"
+        android:id="@+id/animalDesc" />
+
+</LinearLayout>
