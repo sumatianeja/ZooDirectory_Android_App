@@ -1,4 +1,5 @@
 # ZooDirectory_Android_App
+
 An android app for a fictional zoo. The app provides a listing of animals, details of each animal, and basic information about the zoo.
 
 Requirements
